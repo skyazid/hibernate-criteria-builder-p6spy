@@ -48,7 +48,7 @@ public class Main {
         System.out.println(bob);
 
         entityManager.close();
-        System.exit(1);
+        System.exit(0);
     }
 
 }
