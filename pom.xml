@@ -29,11 +29,11 @@
             <version>5.3.1.Final</version>
         </dependency>
 
-        <!--connecteur mysql-->
+        <!--hsqldb-->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.11</version>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>2.4.1</version>
         </dependency>
 
         <!--gestion des logs-->
