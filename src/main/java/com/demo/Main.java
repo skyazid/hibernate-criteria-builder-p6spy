@@ -31,14 +31,22 @@ public class Main {
         EntityManager entityManager = openEntityManager();
         IPersonDao personDao = new PersonDaoImpl();
         ((PersonDaoImpl) personDao).setEntityManager(entityManager);
+
         entityManager.getTransaction().begin();
+
         Person alice = new Person();
         alice.setName("alice");
-        entityManager.persist(alice);
+        personDao.create(alice);
+
         Person bob = new Person();
         bob.setName("bob");
-        entityManager.persist(bob);
+        personDao.create(bob);
+
         entityManager.getTransaction().commit();
+
+        bob = personDao.findByName("bob").get(0);
+        System.out.println(bob);
+
         entityManager.close();
         System.exit(1);
     }
