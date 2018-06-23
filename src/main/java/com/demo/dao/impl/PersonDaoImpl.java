@@ -1,6 +1,5 @@
 package com.demo.dao.impl;
 
-import com.demo.conf.AbstractGenericDaoImpl;
 import com.demo.dao.IPersonDao;
 import com.demo.entities.Person;
 import com.demo.entities.Person_;

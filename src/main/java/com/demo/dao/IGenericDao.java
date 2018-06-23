@@ -1,4 +1,6 @@
-package com.demo.conf;
+package com.demo.dao;
+
+import com.demo.conf.IBeanAsSearchCriteres;
 
 import javax.persistence.criteria.Order;
 import java.io.Serializable;

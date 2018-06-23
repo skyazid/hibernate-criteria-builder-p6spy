@@ -1,5 +1,7 @@
-package com.demo.conf;
+package com.demo.dao.impl;
 
+import com.demo.conf.IBeanAsSearchCriteres;
+import com.demo.dao.IGenericDao;
 import com.demo.conf.exception.BeanTechnicalException;
 import com.demo.conf.exception.DataAccessException;
 import org.slf4j.Logger;
