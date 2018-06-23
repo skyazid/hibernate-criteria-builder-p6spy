@@ -3,6 +3,6 @@
 - EntityManager
 - CriteriaBuilder
 - Meta-Model
-- MySQL
+- HSQLDB
 - P6Spy
 - SLF4J
